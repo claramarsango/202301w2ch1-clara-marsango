@@ -77,3 +77,19 @@ body {
   font-size: 0.75rem;
   text-decoration: line-through;
 }
+
+.info__shop-item {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: rgb(62, 130, 104);
+  border: 0;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.shop-item__text {
+  font-family: Montserrat;
+  font-weight: 700;
+  color: white;
+}
