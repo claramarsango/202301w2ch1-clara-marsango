@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
 body {
   background-color: rgb(243, 235, 228);
   padding: 2rem 1rem;
@@ -31,4 +33,27 @@ body {
   flex-direction: column;
   gap: 0.5rem;
   height: auto;
+  color: rgb(58, 60, 59);
+}
+
+.text__product-type {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+}
+
+.text__perfume-name {
+  font-family: Fraunces;
+  font-size: 2rem;
+  color: black;
+}
+
+.text__perfume-description {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  padding-top: 0.25rem;
 }
