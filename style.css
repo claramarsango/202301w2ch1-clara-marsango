@@ -57,3 +57,23 @@ body {
   line-height: 1.25rem;
   padding-top: 0.25rem;
 }
+
+.info__price-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.price__current {
+  font-family: Fraunces;
+  color: rgb(62, 130, 104);
+  font-size: 2rem;
+}
+
+.price__previous {
+  display: flex;
+  align-items: center;
+  font-family: Montserrat;
+  font-size: 0.75rem;
+  text-decoration: line-through;
+}
