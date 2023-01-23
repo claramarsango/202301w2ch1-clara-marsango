@@ -1,3 +1,19 @@
 body {
-  background-color: hsl(30, 38%, 92%);
+  background-color: rgb(243, 235, 228);
+  padding: 2rem 1rem;
+}
+
+.perfume-card-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+  height: auto;
+}
+
+.card__perfume-image {
+  height: 15rem;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
 }
